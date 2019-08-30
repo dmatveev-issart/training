@@ -3,21 +3,26 @@ from geom2d.point import *
 a = Point(0, 0)
 b = Point(3, 4)
 
-#print(a.distance(b))
-#print(a == b)
-#print(a == Point(0, 0))
+# print(a.distance(b))
+# print(a == b)
+# print(a == Point(0, 0))
 
-l1 = [Point(0, 0), Point(1, 2), Point(2, 1), Point(3, 5)]
-
-
-#def x(p):
+# def x(p):
 #    return p.x
 
+# l2 = sorted(l1, key=lambda p: p.x)
 
-l2 = sorted(l1, key=lambda p: p.x)
-l3 = sorted(l1, key=lambda p: p.distance(Point(0, 0)))
+l = []
 
-print(l1)
+l = [Point(i, i*i) for i in range(-5, 6)]
+
+# for i in range(-5, 6):
+#    l.append(Point(i, i*i))
+
+l2 = []
+
+for el in l:
+    l2.append(Point(el.x, -el.y))
+
+print(l)
 print(l2)
-print(l3)
-
