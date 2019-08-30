@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c42c2d-bde7-414b-8617-1dbfb8d7576b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/how_to_setup_virt_env.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/geometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how_to_setup_virt_env.txt" beforeDir="false" afterPath="$PROJECT_DIR$/how_to_setup_virt_env.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1565356606899</updated>
     </task>
+    <task id="LOCAL-00001" summary="how_to_setup_virt_env.txt added">
+      <created>1567157875846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567157875846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,5 +194,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="how_to_setup_virt_env.txt added" />
+    <option name="LAST_COMMIT_MESSAGE" value="how_to_setup_virt_env.txt added" />
   </component>
 </project>

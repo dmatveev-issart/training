@@ -1,6 +1,6 @@
 sudo apt-get update
 sudo apt-get install python3-pip
-cd 
+cd
 sudo apt-get install virtualenv
 virtualenv -p /usr/bin/python3.5 env
 cd env/bin
