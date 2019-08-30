@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get install python3-pip
+cd 
+sudo apt-get install virtualenv
+virtualenv -p /usr/bin/python3.5 env
+cd env/bin
+source activate
+pip3 install ipython
+pip3 install selenium
+pip3 install pytest
+
+binary = FirefoxBinary('/home/gitpluginauto/firefox/firefox')
+self.driver = webdriver.Firefox(firefox_binary = binary)
